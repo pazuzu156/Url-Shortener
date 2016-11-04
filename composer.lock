@@ -706,16 +706,16 @@
         },
         {
             "name": "scaramvc/framework",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ScaraMVC/Framework.git",
-                "reference": "d40c7745c681446d0ff35c048bfaeb62f9c23066"
+                "reference": "15481ac981c71eb09219048d17a224470a491199"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ScaraMVC/Framework/zipball/d40c7745c681446d0ff35c048bfaeb62f9c23066",
-                "reference": "d40c7745c681446d0ff35c048bfaeb62f9c23066",
+                "url": "https://api.github.com/repos/ScaraMVC/Framework/zipball/15481ac981c71eb09219048d17a224470a491199",
+                "reference": "15481ac981c71eb09219048d17a224470a491199",
                 "shasum": ""
             },
             "require": {
@@ -754,7 +754,7 @@
                 "mvc",
                 "php"
             ],
-            "time": "2016-10-28 04:58:23"
+            "time": "2016-11-04 17:29:32"
         },
         {
             "name": "symfony/console",
