@@ -10,7 +10,22 @@
         <nav class="navbar navbar-default navbar-static-top">
             <div class="navbar-inner">
                 <div class="container">
-                    <a href="{{ url('/') }}" class="navbar-brand">URL Shortener</a>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nb-collapse" aria-expanded="flase">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        {!! Html::link('/', 'URL Shortener', ['class' => 'navbar-brand']) !!}
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right" id="nb-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                {!! link_to('https://github.com/pazuzu156/url-shortener', 'View on GitHub', ['target' => '_blank']) !!}
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
